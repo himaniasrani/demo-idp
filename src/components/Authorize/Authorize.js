@@ -14,7 +14,7 @@ export default function Authorize() {
     }, []);
 
     const generateAuthCode = () => {
-        window.location.href = redirect_uri + "?code="+code+"state=hgwvmqvdwqkbd";
+        window.location.href = redirect_uri + "?code="+code+"&state=hgwvmqvdwqkbd";
     }
 
   return <>
